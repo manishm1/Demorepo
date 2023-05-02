@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Suite">
+  <test thread-count="7" parallel="methods" name="Test">
+    <classes>
+      <class name="testg.TestMethodParallel"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+<!-- By default thread count is 5 i.e. only 5 classes/methods etc can run parallel  -->
